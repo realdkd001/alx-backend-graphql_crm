@@ -1,3 +1,4 @@
+
 from datetime import datetime
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
