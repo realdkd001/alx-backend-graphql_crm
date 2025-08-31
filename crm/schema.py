@@ -9,7 +9,8 @@ from django.utils import timezone
 import django_filters
 from graphene_django.filter import DjangoFilterConnectionField
 
-from .models import Customer, Product, Order
+from .models import Customer, Order
+from crm.models import Product
 
 # -----------------------------
 # GraphQL Types
