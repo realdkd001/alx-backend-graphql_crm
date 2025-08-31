@@ -134,7 +134,7 @@ def updatelowstock():
         # Log errors
         error_message = f"[{timestamp}] ERROR in update_low_stock: {str(e)}"
         try:
-            with open('/tmp/lowstockupdates_log.txt', 'a') as log_file:
+            with open('/tmp/low_stock_updates_log.txt', 'a') as log_file:
                 log_file.write(error_message + '\n\n')
         except Exception as log_error:
             print(f"Failed to write error log: {log_error}")
